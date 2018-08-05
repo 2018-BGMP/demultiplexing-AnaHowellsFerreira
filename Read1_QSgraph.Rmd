@@ -1,0 +1,32 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Quality scores for sequence read 1 (file: 1294_S1_L008_R1_001.fastq.gz)
+
+```{r}
+read1_QS <- read.csv("/Users/anaferreira/Desktop/read1_QS.csv", sep=",", header=TRUE)
+read1_QS
+
+
+```
+
+
+```{r}
+summary(read1_QS)
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+ggplot(read1_QS, aes(x=Base.Pair, y=Mean.Quality.Score, colour="red")) + 
+  geom_line() + 
+  labs(x="Base Pair", y="Mean Quality Score") +
+  ggtitle("Read 1 Mean Quality Score per Base Pair")
+```
+ 
+
+
