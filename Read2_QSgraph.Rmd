@@ -1,0 +1,32 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Quality scores for read 2 (file: 1294_S1_L008_R4_001.fastq.gz)
+
+```{r}
+read2_QS <- read.csv("/Users/anaferreira/Desktop/demultiplexing-AnaHowellsFerreira/quality score tables/read2_QS_reg.csv", sep=",", header=TRUE)
+read2_QS
+
+
+```
+
+
+```{r}
+summary(read2_QS)
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+ggplot(read2_QS, aes(x=Base.Pair, y=Mean.Quality.Score, color="red")) + 
+  geom_line() + 
+  labs(x="Base Pair", y="Mean Quality Score") +
+  ggtitle("Read 2 Mean Quality Score per Base Pair")
+```
+ 
+
+
