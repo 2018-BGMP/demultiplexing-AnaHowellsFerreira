@@ -1,0 +1,4 @@
+For the R graphs, it's best to export an image file rather than RMD file because I (the reviewer) do not have access 
+to your local computer (where the plotting data is stored). 
+
+Please include the pseudocode to demultiplex the reads (contained in /projects/bgmp/shared/2017_sequencing/). 
