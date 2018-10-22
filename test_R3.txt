@@ -1,0 +1,20 @@
+@K00337: 01 does not have N: 3:N:0:1
+GTAGCGTA
++
+JJJJJJJJ
+@K00337: 02 has good quality: 3:N:0:1
+ATTAGGAC
++
+JJJJJJJJ
+@K00337: 03 matches list: 3:N:0:1
+TCGAGAGT
++
+JJJJJJJJ
+@K00337: 04 index hoping: does not match R2 fw read 3:N:0:1
+GTGCCATA
++
+JJJJJJJJ
+@K00337:05 matches the rev_comp of read2: 3:N:0:1
+TGAGCTAG
++
+JJJJJJJJ
