@@ -1,0 +1,20 @@
+@K00337: 01 has N: 2:N:0:1
+NCTTCGAC
++
+JJJJJJJJ
+@K00337: 02 has low qual: 2:N:0:1
+AACAGCGA
++
+;;;;;;;;
+@K00337: 03 does not match list:  2:N:0:1
+AAAAAAAA
++
+JJJJJJJJ
+@K00337: 04 index hoping: does not match rev_comp: 2:N:0:1
+ATCGTGGT
++
+JJJJJJJJ
+@K00337: 05 matches the other file:  2:N:0:1
+CTAGCTCA
++
+JJJJJJJJ
