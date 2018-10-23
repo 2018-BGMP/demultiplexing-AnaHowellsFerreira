@@ -1,0 +1,6 @@
+
+Total Index with N: 4205183
+Total Low Quality Index: 46030666
+Mismatched to List: 8852624
+Total Index Hoping: 513040
+Total Correct Index: 303645222
